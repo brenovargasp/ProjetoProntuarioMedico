@@ -119,3 +119,46 @@ Extraia o conteúdo do arquivo ZIP (se aplicável). Copie as fontes para o diret
 ## Conclusão
 
 O projeto de prontuário médico em Java é uma solução avançada para gerenciar informações de pacientes e médicos de forma eficiente e segura. Integrando um banco de dados robusto e funcionalidades como autenticação via CPF, acesso detalhado aos prontuários e criação de novos registros, o sistema oferece aos profissionais de saúde uma plataforma completa para acompanhar tratamentos. A capacidade de verificar prontuários anteriores e a ênfase na segurança dos dados garantem uma gestão organizada e acessível das informações médicas, contribuindo para um atendimento de excelência e personalizado aos pacientes.
+
+## Banco de Dados
+
+### Dados para utilização no acesso ao sistema
+
+1. Pacientes (CPF):
+
+- 12345678901: Lucas Oliveira.
+- 23456789012: Mariana Costa.
+- 34567890123: Carlos Santos.
+- 45678901234: Fernanda Lima.
+- 56789012345: Rafael Almeida.
+- 67890123456: Amanda Ferreira.
+- 78901234567: Gustavo Martins.
+- 89012345678: Juliana Rodrigues.
+- 90123456789: Pedro Carvalho.
+- 01234567890: Bianca Souza.
+
+2. Funcionários (CPF e senha):
+
+- 11122233344 e abc123: José Silva.
+- 22233344455 e def456: Maria Santos.
+- 33344455566 e ghi789: Carlos Oliveira.
+- 44455566677 e jkl012: Ana Costa.
+- 55566677788 e mno345: Fernanda Pereira.
+- 66677788899 e pqr678: Paulo Lima.
+- 77788899900 e stu901: Mariana Souza.
+- 88899900011 e vwx234: Rodrigo Alves.
+- 99900011122 e yzab56: Aline Rodrigues.
+- 00011122233 e cdef78: Gustavo Santos.
+
+3. Especialidades (valores):
+
+- 1: Cardiologia.
+- 2: Dermatologia.
+- 3: Endocrinologia.
+- 4: Gastroenterologia.
+- 5: Ginecologia.
+- 6: Neurologia.
+- 7: Ortopedia.
+- 8: Pediatria.
+- 9: Psiquiatria.
+- 10: Urologia.
