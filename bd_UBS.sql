@@ -77,16 +77,16 @@ CREATE TABLE Prontuario (
 );
 
 INSERT INTO Pacientes (cpf, nome, email, data_nasc, celular, endereco, cidade, cep, nr_SUS, genero) VALUES
-('12345678901', 'Lucas Oliveira', 'lucas.oliveira@example.com', '1985-03-25', '5511998765432', 'Rua das Flores, 123', 'São Paulo', '01001-000', 1234567890, 'M'),
-('23456789012', 'Mariana Costa', 'mariana.costa@example.com', '1990-07-15', '5511987654321', 'Avenida Brasil, 456', 'Rio de Janeiro', '20001-000', 2345678901, 'F'),
-('34567890123', 'Carlos Santos', 'carlos.santos@example.com', '1978-12-05', '5511976543210', 'Rua da Harmonia, 789', 'Belo Horizonte', '30001-000', 3456789012, 'M'),
-('45678901234', 'Fernanda Lima', 'fernanda.lima@example.com', '1995-05-20', '5511965432109', 'Avenida Paulista, 101', 'São Paulo', '01002-000', 2345678901, 'F'),  -- Ajustado para valor dentro do intervalo
-('56789012345', 'Rafael Almeida', 'rafael.almeida@example.com', '1983-11-10', '5511954321098', 'Rua do Comércio, 202', 'Curitiba', '80001-000', 5678901234, 'M'),
-('67890123456', 'Amanda Ferreira', 'amanda.ferreira@example.com', '1992-08-30', '5511943210987', 'Avenida das Américas, 303', 'Rio de Janeiro', '20002-000', 6789012345, 'F'),
-('78901234567', 'Gustavo Martins', 'gustavo.martins@example.com', '1980-01-15', '5511932109876', 'Rua da Paz, 404', 'Porto Alegre', '90001-000', 7890123456, 'M'),
-('89012345678', 'Juliana Rodrigues', 'juliana.rodrigues@example.com', '1988-04-25', '5511921098765', 'Avenida Central, 505', 'Florianópolis', '88001-000', 8901234567, 'F'),
-('90123456789', 'Pedro Carvalho', 'pedro.carvalho@example.com', '1975-09-12', '5511910987654', 'Rua das Palmeiras, 606', 'Salvador', '40001-000', 9012345678, 'M'),
-('01234567890', 'Bianca Souza', 'bianca.souza@example.com', '1993-02-17', '5511909876543', 'Avenida Rio Branco, 707', 'Recife', '50001-000', 1234567899, 'F');
+('12345678901', 'Lucas Oliveira', 'lucas.oliveira@example.com', '1985-03-25', '5511998765432', 'Rua das Flores, 123', 'São Paulo', '01001000', 1234567890, 'M'),
+('23456789012', 'Mariana Costa', 'mariana.costa@example.com', '1990-07-15', '5511987654321', 'Avenida Brasil, 456', 'Rio de Janeiro', '20001000', 2345678901, 'F'),
+('34567890123', 'Carlos Santos', 'carlos.santos@example.com', '1978-12-05', '5511976543210', 'Rua da Harmonia, 789', 'Belo Horizonte', '30001000', 3456789012, 'M'),
+('45678901234', 'Fernanda Lima', 'fernanda.lima@example.com', '1995-05-20', '5511965432109', 'Avenida Paulista, 101', 'São Paulo', '01002000', 2345678901, 'F'),  -- Ajustado para valor dentro do intervalo
+('56789012345', 'Rafael Almeida', 'rafael.almeida@example.com', '1983-11-10', '5511954321098', 'Rua do Comércio, 202', 'Curitiba', '80001000', 5678901234, 'M'),
+('67890123456', 'Amanda Ferreira', 'amanda.ferreira@example.com', '1992-08-30', '5511943210987', 'Avenida das Américas, 303', 'Rio de Janeiro', '20002000', 6789012345, 'F'),
+('78901234567', 'Gustavo Martins', 'gustavo.martins@example.com', '1980-01-15', '5511932109876', 'Rua da Paz, 404', 'Porto Alegre', '90001000', 7890123456, 'M'),
+('89012345678', 'Juliana Rodrigues', 'juliana.rodrigues@example.com', '1988-04-25', '5511921098765', 'Avenida Central, 505', 'Florianópolis', '88001000', 8901234567, 'F'),
+('90123456789', 'Pedro Carvalho', 'pedro.carvalho@example.com', '1975-09-12', '5511910987654', 'Rua das Palmeiras, 606', 'Salvador', '40001000', 9012345678, 'M'),
+('01234567890', 'Bianca Souza', 'bianca.souza@example.com', '1993-02-17', '5511909876543', 'Avenida Rio Branco, 707', 'Recife', '50001000', 1234567899, 'F');
 
 INSERT INTO Funcionarios (nome, cpf, senha, cargo) VALUES
 ('José Silva', '11122233344', 'abc123', 1),
