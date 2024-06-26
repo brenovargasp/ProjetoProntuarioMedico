@@ -1,4 +1,4 @@
-# Projeto - Prontuário Médico
+wwwwwww# Projeto - Prontuário Médico
 
 ## Introdução
 
@@ -149,16 +149,3 @@ O projeto de prontuário médico em Java é uma solução avançada para gerenci
 - 88899900011 e vwx234: Rodrigo Alves.
 - 99900011122 e yzab56: Aline Rodrigues.
 - 00011122233 e cdef78: Gustavo Santos.
-
-3. Especialidades (valores):
-
-- 1: Cardiologia.
-- 2: Dermatologia.
-- 3: Endocrinologia.
-- 4: Gastroenterologia.
-- 5: Ginecologia.
-- 6: Neurologia.
-- 7: Ortopedia.
-- 8: Pediatria.
-- 9: Psiquiatria.
-- 10: Urologia.
